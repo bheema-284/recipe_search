@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+
+    <div id ="navappend"></div>
+    <div id="append"></div>
+</body>
+
+</html>
+<script type="module">
+    import navbar from "./components/navbar.js"
+    let navappend = document.getElementById("navappend");
+    navappend.innerHTML = navbar();
+        import { getData, appendData } from "./scripts/showdata.js"
+        //console.log(getData,appendData)
+        let response = getData("https://www.themealdb.com/api/json/v1/1/search.php?f=s")
+        response.then((data) => {
+            data = data.meals;
+            let id = document.getElementById('append');
+            appendData(data, id, "strMeal", "strThumb")
+
+        })
+</script>

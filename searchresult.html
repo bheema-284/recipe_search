@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <div id="mid">
+        <h1 style="text-align: center;" class="site-title"><a href="index.html">Home</a></h1>
+    </div>
+    <div id="append"></div>
+</body>
+</html>
+<script type="module">
+    import {appendData } from "./scripts/showdata.js"
+        let data = localStorage.getItem('recp');
+       data = (JSON.parse(data))
+       console.log(data)
+        let id = document.getElementById('append');
+       //appendData1(data, id, "strMeal", "strThumb")
+        setInterval(function () {
+
+                appendData1(data.reverse(), id, "strMeal", "strThumb")
+            }, 2000)
+                function appendData1(categories, data) {
+                    data.innerHTML=null
+                    categories.forEach((el) => {
+                        let div = document.createElement("div");
+                        div.id = "gridimg";
+                        let img = document.createElement("img");
+                        img.src = el.strMealThumb;
+                        img.addEventListener("click", function () {
+                            clicked(el);
+                        });
+                        let p = document.createElement("h1");
+                        p.innerText = el.strMeal;
+                        div.append(img, p);
+                        data.append(div);
+                    });
+                } 
+
+    // })
+</script>

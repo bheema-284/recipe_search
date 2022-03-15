@@ -1,0 +1,175 @@
+#navbar {
+  display: flex;
+
+  justify-content: space-between;
+
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+#options {
+  display: flex;
+  justify-content: space-between;
+}
+
+#options h3 {
+  padding-left: 30px;
+  padding-right: 10px;
+}
+.line {
+  width: 40px;
+  height: 3px;
+  margin-bottom: 5px;
+  background-color: #5da529;
+  color: #5da529;
+}
+.menu {
+  color: #5da529;
+}
+#input {
+  width: 200%;
+  height: 25%;
+  margin-top: 15%;
+}
+#mid {
+  display: flex;
+  justify-content: space-between;
+}
+#mid img {
+  width: 70px;
+  height: 70px;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+#mid h1 {
+  color: #5da529;
+  font-size: 30px;
+}
+#nav2 {
+  /* background-color:#5DA529violet; */
+  display: flex;
+  justify-content: space-between;
+}
+.abc {
+  display: flex;
+  justify-content: space-between;
+}
+.abc h2 {
+  margin-right: 20px;
+  margin-right: 25px;
+  color: #5da529;
+  text-decoration: none;
+}
+#trend {
+  color: #5da529;
+  text-align: center;
+  font-size: 33px;
+  margin-top: 10px;
+}
+#append {
+  margin-top: 30px;
+  display: grid;
+
+  grid-template-columns: repeat(4, 20%);
+  grid-gap: 5%;
+  margin-left: 3%;
+}
+#gridimg img {
+  background-color: rgb(170, 146, 146);
+  position: relative;
+  width: 100%;
+  height: 80%;
+}
+#home {
+  color: #5da529;
+}
+#home:hover {
+  color: red;
+  font-size: 30px;
+}
+#gridimg img:hover {
+  cursor: pointer;
+  /* 105
+  85 */
+  width: 75%;
+  height: 65%;
+  border: #5da529 solid 5px;
+}
+#gridimg h1 {
+  cursor: pointer;
+  text-align: center;
+  color: #5da529;
+}
+#finalappend {
+  display: grid;
+  grid-template-columns: 630px 500px;
+  grid-gap: 10%;
+}
+#ingredients h1 {
+  color: #5da529;
+  margin-left: 5%;
+}
+ul {
+  margin-top: -12px;
+}
+h2,
+h3 {
+  color: #5da529;
+}
+#way {
+  width: 90%;
+  margin-left: 5%;
+}
+#main2ul {
+  color: #5da529;
+  font-size: 30px;
+  line-height: 40px;
+}
+#headingtext {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20%;
+}
+#finalappend img {
+  width: 60%;
+  margin-left: 10%;
+  height: 47%;
+}
+
+#append img {
+  /* background-color: rgb(170, 146, 146); */
+  position: static;
+}
+#hre2:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #5da529;
+  text-decoration: none;
+}
+#hre:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #5da529;
+  text-decoration: none;
+}
+#last h1 {
+  text-decoration: none;
+
+  color: #5da529;
+}
+body {
+  background-color: #2d2013;
+}
+#searc {
+  outline: none;
+  width: 60%;
+  margin-left: 18%;
+  height: 40px;
+}
+#button {
+  height: 46px;
+}
+#hre,
+#hre2 {
+  color: #5da529;
+}
