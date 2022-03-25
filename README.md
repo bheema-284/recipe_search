@@ -10,7 +10,8 @@ This project is designed using HTML, CSS and JavaScript
 # 3. Website snapshots:
 
 # > Home page 
-<img width="953" alt="bathandbody" src="https://user-images.githubusercontent.com/96168073/154540793-2499fa0c-b989-4d27-ab5a-787bf029b2e2.PNG">
+<img width="955" alt="recipe1" src="https://user-images.githubusercontent.com/96168073/160087068-b276f67a-9d19-479f-89e6-c5d218f0608d.PNG">
+
 
 # 5. Quick Start
 1. Open a folder where you want to clone the repo
