@@ -1,6 +1,3 @@
-# recipe_search
-Recipe Searching Website was a mini project through this project I was learning making API call.  
-# bathadbodyworks-clone
 # 1. About the website:
 Recipe Searching Website was a mini project through this project you can able to search your favorite dish.
 
